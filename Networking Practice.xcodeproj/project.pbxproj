@@ -14,6 +14,7 @@
 		C9A4DEBE1AB1065C000170A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A4DEBD1AB1065C000170A9 /* Images.xcassets */; };
 		C9A4DEC11AB1065C000170A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A4DEBF1AB1065C000170A9 /* LaunchScreen.xib */; };
 		C9A4DECD1AB1065C000170A9 /* Networking_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4DECC1AB1065C000170A9 /* Networking_PracticeTests.swift */; };
+		C9A4DED71AB107C7000170A9 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4DED61AB107C7000170A9 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		C9A4DEC61AB1065C000170A9 /* Networking PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Networking PracticeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A4DECB1AB1065C000170A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9A4DECC1AB1065C000170A9 /* Networking_PracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking_PracticeTests.swift; sourceTree = "<group>"; };
+		C9A4DED61AB107C7000170A9 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				C9A4DEBF1AB1065C000170A9 /* LaunchScreen.xib */,
 				C9A4DEB51AB1065B000170A9 /* Networking_Practice.xcdatamodeld */,
 				C9A4DEB11AB1065B000170A9 /* Supporting Files */,
+				C9A4DED61AB107C7000170A9 /* CoreDataManager.swift */,
 			);
 			path = "Networking Practice";
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				C9A4DEB91AB1065C000170A9 /* ViewController.swift in Sources */,
 				C9A4DEB71AB1065B000170A9 /* Networking_Practice.xcdatamodeld in Sources */,
+				C9A4DED71AB107C7000170A9 /* CoreDataManager.swift in Sources */,
 				C9A4DEB41AB1065B000170A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
